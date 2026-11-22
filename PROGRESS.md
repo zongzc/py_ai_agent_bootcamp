@@ -10,7 +10,7 @@
 ## 一、里程碑总览（勾选式）
 
 - [x] 本地开发环境搭建（uv 初始化 + 虚拟环境激活）
-- [x] Git 仓库关联远程（origin → github.com:zongzc/py_project_1）
+- [x] Git 仓库关联远程（origin → github.com:zongzc/py_ai_agent_bootcamp）
 - [x] 双分支建立并推送（main / dev，均已 track origin）
 - [x] .gitignore 配置（排除 .venv/ / __pycache__/ / *.pyc）
 - [ ] 第1周 Day2：Python 语法精准补课（针对 PHP/Java 背景）

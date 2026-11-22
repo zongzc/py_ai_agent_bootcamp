@@ -40,10 +40,10 @@
 - 已完成：
 
 - 下一个未完成任务 → 从这里继续：
-  - [ ] uv 初始化：pyproject.toml / uv.lock / .python-version / src/ 就绪，虚拟环境已激活
-  - [ ] .gitignore 已排除 .venv/ __pycache__/ *.pyc，虚拟环境未被误提交
-  - [ ] Git 本地仓库 + 首次 commit（c1be5c2 Initial commit: uv project scaffold）
-  - [ ] main / dev 双分支均已 push 远端并建立追踪，工作区干净
+  - [x] uv 初始化：pyproject.toml / uv.lock / .python-version / src/ 就绪，虚拟环境已激活
+  - [x] .gitignore 已排除 .venv/ __pycache__/ *.pyc，虚拟环境未被误提交
+  - [x] Git 本地仓库 + 首次 commit（c1be5c2 Initial commit: uv project scaffold）
+  - [x] main / dev 双分支均已 push 远端并建立追踪，工作区干净
   - [ ] 第 1 周 Day1「Python 工程环境装回来」基本达成（用 uv venv 创建虚拟环境）
   - [ ] Day2：PHP/Java 背景下的 Python 语法精准补课 5 点（type hints / dataclass / 装饰器 / 异常 / 模块化），做练习 2.1-2.3（详见 D:\www\memory\第1周导师手册_徒手造Agent内核.md）；验收补充：若本日新增依赖，须 `pyproject.toml` 的 dependencies 非空且 `uv.lock` 已同步更新
   - [ ] Day3：先 `uv add httpx`（验收：`pyproject.toml` dependencies 含 httpx 且 `uv.lock` 已更新），再攻 异步 async/await + httpx 调 LLM（本周最大坎，单独一天）
