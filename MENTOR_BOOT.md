@@ -38,13 +38,12 @@
 ## 5. 当前进度状态 ★（每次更新这一节，或直接改 PROGRESS.md）
 
 - 已完成：
-
-- 下一个未完成任务 → 从这里继续：
   - [x] uv 初始化：pyproject.toml / uv.lock / .python-version / src/ 就绪，虚拟环境已激活
   - [x] .gitignore 已排除 .venv/ __pycache__/ *.pyc，虚拟环境未被误提交
   - [x] Git 本地仓库 + 首次 commit（c1be5c2 Initial commit: uv project scaffold）
   - [x] main / dev 双分支均已 push 远端并建立追踪，工作区干净
-  - [ ] 第 1 周 Day1「Python 工程环境装回来」基本达成（用 uv venv 创建虚拟环境）
+  - [x] 第 1 周 Day1「Python 工程环境装回来」基本达成（用 uv venv 创建虚拟环境）
+- 下一个未完成任务 → 从这里继续：
   - [ ] Day2：PHP/Java 背景下的 Python 语法精准补课 5 点（type hints / dataclass / 装饰器 / 异常 / 模块化），做练习 2.1-2.3（详见 D:\www\memory\第1周导师手册_徒手造Agent内核.md）；验收补充：若本日新增依赖，须 `pyproject.toml` 的 dependencies 非空且 `uv.lock` 已同步更新
   - [ ] Day3：先 `uv add httpx`（验收：`pyproject.toml` dependencies 含 httpx 且 `uv.lock` 已更新），再攻 异步 async/await + httpx 调 LLM（本周最大坎，单独一天）
   - [ ] Day4：Pydantic v2（工具 Schema + 结构化输出防御），做练习 2.4-2.6（详见 D:\www\memory\第1周导师手册_徒手造Agent内核.md）（验收：src/schemas.py 存在，含 ≥3 个 BaseModel 子类且字段带类型注解+Field 约束；LLM 返回的非法 JSON 能被 ValidationError 捕获并触发一次重试，重试仍失败则抛自定义异常而非静默返回 None；`uv run python -m src.schemas` 可跑通演示）
