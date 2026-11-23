@@ -38,5 +38,8 @@
 ### 2026-11-23
 - Day2 exercise_2_1.py：dataclass + field(default_factory=dict) 已跑通
 - 下一步：给 ToolCall 加 is_valid 方法
+- Day2 exercise_2_1.py：is_valid 方法完成，返回类型注解 -> bool 已理解
+- 下一步：多工具调用列表 + 批量校验
+
 
 ### （新的一天从这里往下加）
