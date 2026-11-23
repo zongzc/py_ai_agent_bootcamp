@@ -35,4 +35,8 @@
 - commit：c1be5c2（Initial commit: uv project scaffold）
 - 备注：确认了「跨会话失忆」根因是 Token 窗口，搭建 memory/ + 启动卡体系
 
+### 2026-11-23
+- Day2 exercise_2_1.py：dataclass + field(default_factory=dict) 已跑通
+- 下一步：给 ToolCall 加 is_valid 方法
+
 ### （新的一天从这里往下加）
